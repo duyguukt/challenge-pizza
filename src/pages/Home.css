@@ -1,0 +1,50 @@
+.home {
+    background-color: rgb(206, 40, 41);
+    background-image: url("./images/iteration-1-images/home-banner.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 95%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.home header {
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: end;
+    padding: 5px;
+}
+
+.home main {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.home main p {
+    margin: 0;
+    color: white;
+    font-size: 3rem;
+    font-family: "Roboto Condensed", serif;
+    font-weight: 300;
+    line-height: 2.7rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.home main .button {
+    background-color: #FDC913;
+    color: #292929;
+    font-size: 0.75rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    border-radius: 1.75rem;
+    font-weight: 600;
+}
